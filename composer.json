@@ -1,40 +1,39 @@
 {
-    "name": "zendframework/zend-navigation-zendview",
+    "name": "laminas/laminas-navigation-laminasview",
     "description": "",
-    "homepage": "https://docs.zendframework.com/zend-navigation-zendview/",
+    "homepage": "https://docs.laminas.com/laminas-navigation-laminasview/",
     "license": "BSD-3-Clause",
     "keywords": [
-        "zend",
-        "zendframework",
-        "zend-navigation",
-        "zend-view"
+        "laminas",
+        "laminas-navigation",
+        "laminas-view"
     ],
     "support": {
-        "docs": "https://docs.zendframework.com/zend-navigation/",
-        "issues": "https://github.com/zendframework/zend-navigation-zendview/issues",
-        "source": "https://github.com/zendframework/zend-navigation-zendview",
-        "rss": "https://github.com/zendframework/zend-navigation-zendview/releases.atom",
-        "slack": "https://zendframework-slack.herokuapp.com",
-        "forum": "https://discourse.zendframework.com/c/questions/components"
+        "docs": "https://docs.laminas.com/laminas-navigation/",
+        "issues": "https://github.com/laminas/laminas-navigation-laminasview/issues",
+        "source": "https://github.com/laminas/laminas-navigation-laminasview",
+        "rss": "https://github.com/laminas/laminas-navigation-laminasview/releases.atom",
+        "chat": "https://laminas.dev/chat",
+        "forum": "https://discourse.laminas.dev"
     },
     "require": {
         "php": "^7.1",
-        "zendframework/zend-navigation": "^2.9",
-        "zendframework/zend-view": "^2.10"
+        "laminas/laminas-navigation": "^2.9",
+        "laminas/laminas-view": "^2.10"
     },
     "require-dev": {
         "phpunit/phpunit": "^7.3",
-        "zendframework/zend-coding-standard": "~1",
-        "zendframework/zend-servicemanager": "^3.3.2"
+        "laminas/laminas-coding-standard": "~1",
+        "laminas/laminas-servicemanager": "^3.3.2"
     },
     "autoload": {
         "psr-4": {
-            "Zend\\Navigation\\ZendView\\": "src/"
+            "Laminas\\Navigation\\LaminasView\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ZendTest\\Navigation\\ZendView\\": "test/"
+            "LaminasTest\\Navigation\\LaminasView\\": "test/"
         }
     },
     "config": {
@@ -46,7 +45,7 @@
             "dev-develop": "1.1-dev"
         },
         "zf": {
-            "config-provider": "Zend\\Navigation\\ZendView\\ConfigProvider"
+            "config-provider": "Laminas\\Navigation\\LaminasView\\ConfigProvider"
         }
     },
     "scripts": {

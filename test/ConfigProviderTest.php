@@ -1,16 +1,16 @@
 <?php
 /**
- * @see       https://github.com/zendframework/zend-navigation-zendview for the canonical source repository
- * @copyright Copyright (c) 2018 Zend Technologies USA Inc. (https://www.zend.com)
- * @license   https://github.com/zendframework/zend-navigation-zendview/blob/master/LICENSE.md New BSD License
+ * @see       https://github.com/laminas/laminas-navigation-laminasview for the canonical source repository
+ * @copyright https://github.com/laminas/laminas-navigation-laminasview/blob/master/COPYRIGHT.md
+ * @license   https://github.com/laminas/laminas-navigation-laminasview/blob/master/LICENSE.md New BSD License
  */
 
-namespace ZendTest\Navigation\ZendView;
+namespace LaminasTest\Navigation\LaminasView;
 
 use PHPUnit\Framework\TestCase;
-use Zend\Navigation\View\ViewHelperManagerDelegatorFactory;
-use Zend\Navigation\ZendView\ConfigProvider;
-use Zend\View\HelperPluginManager;
+use Laminas\Navigation\View\ViewHelperManagerDelegatorFactory;
+use Laminas\Navigation\LaminasView\ConfigProvider;
+use Laminas\View\HelperPluginManager;
 
 class ConfigProviderTest extends TestCase
 {

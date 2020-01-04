@@ -1,21 +1,21 @@
 <?php
 /**
- * @see       https://github.com/zendframework/zend-navigation-zendview for the canonical source repository
- * @copyright Copyright (c) 2018 Zend Technologies USA Inc. (http://www.zend.com)
- * @license   https://github.com/zendframework/zend-navigation-zendview/blob/master/LICENSE.md New BSD License
+ * @see       https://github.com/laminas/laminas-navigation-laminasview for the canonical source repository
+ * @copyright https://github.com/laminas/laminas-navigation-laminasview/blob/master/COPYRIGHT.md
+ * @license   https://github.com/laminas/laminas-navigation-laminasview/blob/master/LICENSE.md New BSD License
  */
 
 declare(strict_types=1);
 
-namespace Zend\Navigation\ZendView;
+namespace Laminas\Navigation\LaminasView;
 
-use Zend\Navigation\View\ViewHelperManagerDelegatorFactory;
-use Zend\View\HelperPluginManager;
+use Laminas\Navigation\View\ViewHelperManagerDelegatorFactory;
+use Laminas\View\HelperPluginManager;
 
 class ConfigProvider
 {
     /**
-     * Return general-purpose zend-navigation configuration.
+     * Return general-purpose laminas-navigation configuration.
      *
      * @return array
      */
